@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0b17;
+    color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0a0b17;
+}
+    nav {
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+        float: left;
+        }
+        nav ul li a {
+            color: white;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+.welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+.welcome h2 {
+    color: #ff3e3e;
+    font-size: 24px;
+    font-weight: bold;
+}
+.welcome h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+.welcome p {
+    font-size: 18px;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.profile-pic img {
+border-radius: 50%;
+width: 450px;
+height: 450px;
+object-fit: cover;
+}
+#About {
+    align-items: center;
+}
+#About h2 {
+    font-size: 38px;
+    border-bottom: 2px solid grey;
+padding-bottom: 10px;
+margin-bottom: 30px;
+padding: 2rem;
+}
+#About p {
+    text-align: center;
+}
+.skills-title {
+    color: white;
+    padding: 5rem 2rem;
+}
+.skill-name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+.skill-bar {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    width: 100%; 
+    max-width: 400px; 
+}
+.skill-level {
+    height: 28px;
+    background-color: darkgrey; 
+}
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 16px;
+}
+.service-card {
+    flex: 1 1 30%;
+    margin-bottom: 16px; 
+}
+.service-list {
+    list-style-type: none; 
+    padding: 0; 
+    border: 1px solid #ccc; 
+    background-color: white; 
+    text-align: center; 
+    opacity: 0.9; 
+    transition: opacity 0.3s; 
+}
+.service-list:hover {
+    opacity: 1; 
+}
+.service-title {
+    background-color: black; 
+    color: white; 
+    font-size: 1.5em; 
+    padding: 32px 0; 
+}
+.service-item {
+    padding: 16px; 
+    color: #0a0b17;
+}
+.projects {
+    align-items: center;
+}
+#projects h2 {
+    padding: 5rem 2rem;
+    font-size: 38px;
+border-bottom: 2px solid grey;
+padding-bottom: 10px;
+margin-bottom: 30px;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.project-card {
+    background: #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.project-info {
+    padding: 1.5rem;
+}
+.project-info h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+.project-links {
+    margin-top: 1rem;
+}
+.project-info {
+    color: grey;
+}
+.project-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+.project-links a:hover {
+    color: #2980b9;
+}
+#Contact {
+    align-items: center;
+}
+#Contact h2 {
+    font-size: 38px;
+border-bottom: 2px solid grey;
+padding-bottom: 10px;
+margin-bottom: 30px;
+padding: 2rem;
+}
+#Contact p {
+    margin-bottom: 20px;
+}
+a {
+    color:#1a75ff;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <title>Fakta dan Mitos Pola Makan/content</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            header {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 4em;
+            }
+            nav {
+                background-color: #00ff00;
+                overflow: hidden;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+            float: left;
+            }
+            nav ul li a {
+                color: black;
+                display: block;
+                padding: 20px;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            section {
+                padding: 20px;
+            }
+            .content-section {
+                display: none;
+            }
+            .content-section.active {
+                display: block;
+            }
+            #content {
+                align-items: center;
+            }
+            #content img {
+                width: 500px;
+                height: 450px;
+                display: block;
+                margin: auto;
+            }
+            #content h2 {
+                margin-top: 10px;
+            }
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th,th:nth-child(odd) {
+                background-color: 	 #808080;
+            }
+            td, th {
+                border: 1px solid black;
+                text-align: center;
+                padding: 8px;
+            }
+            tr:nth-child(even) {
+                background-color: #d9d9d9;
+            }
+            form {
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            input[type="text"], textarea {
+                width: 80%;
+                padding: 10px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            button[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 40%;
+                margin-top: 10px;
+            }
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+            footer {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 1em;
+                width: 100%;
+            }
+            @media (max-width: 768px) {
+            header {
+                padding: 1em;
+            }
+            nav ul li a {
+                padding: 10px;
+            }
+            input[type="text"], textarea {
+                width: 90%;
+            }
+            button[type="submit"] {
+                width: 60%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                width: 100%;
+                text-align: center;
+            }
+            input[type="text"], textarea {
+                width: 100%;
+            }
+            button[type="submit"] {
+                width: 80%;
+            }
+        }
+    </style>
+        </style>
+        <body>
+            <header>
+                <h1>Mitos dan Fakta Pola Makan Sehat yang Perlu Anda Ketahui</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#content">Content</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        <section id="Content">
+            <img src="Healthy Food.jpeg" alt="Kesehatan"><br>
+            <p>Makanan sehat sangat penting bagi kesehatan tubuh secara keseluruhan, namun di tengah banyaknya informasi
+                tentang nutrisi, muncul berbagai mitos yang dapat membingungkan. 
+                Beberapa di antaranya mungkin mengarahkan kita untuk melakukan pola makan yang kurang tepat, seperti 
+                menghindari lemak sepenuhnya atau mengikuti tren diet populer tanpa mempertimbangkan kebutuhan pribadi tubuh.</p><br>
+            <p>Pada kenyataannya, setiap individu memiliki kebutuhan gizi yang berbeda, dan penting 
+                untuk memahami mana informasi yang benar dan bermanfaat bagi tubuh. 
+                Beberapa mitos umum tentang pola makan sehat, seperti anggapan bahwa makan malam selalu menambah berat badan 
+                atau bahwa lemak harus dihindari sepenuhnya, sering kali dapat menyesatkan. 
+                Sebaliknya, memahami fakta di balik mitos-mitos ini dapat membantu kita membuat pilihan yang lebih sehat dan seimbang.</p>
+            <h2>Berikut Contoh Beberapa Fakta dan Mitos Mengenai Pola Makan</h2><br>
+            <article>
+                <ol>
+                <li>
+                    <h3>Mitos: Semua Lemak Tidak Sehat dan Harus Dihindari</h3><br>
+                    <p>Fakta: Tidak semua lemak buruk bagi tubuh. Lemak sehat, 
+                    seperti lemak tak jenuh yang ditemukan dalam alpukat, kacang-kacangan, dan minyak zaitun, 
+                    bermanfaat bagi kesehatan jantung dan membantu penyerapan vitamin.</p>
+                </li><br>
+                <li>
+                    <h3>Mitos: Makan Setelah Jam 8 Malam Menyebabkan Kenaikan Berat Badan</h3><br>
+                    <p>Fakta: Tidak ada waktu pasti yang membuat tubuh lebih rentan menyimpan lemak. 
+                        Kenaikan berat badan terjadi jika kalori yang masuk melebihi yang dibakar. Fokuslah pada jumlah 
+                        dan kualitas makanan, bukan hanya jam makan. Namun, makan larut malam dapat mengganggu kualitas tidur 
+                        dan pencernaan bagi sebagian orang.</p><br>
+                </li>
+                <li>
+                    <h3>Mitos: Diet Karbohidrat Rendah Selalu Lebih Sehat</h3><br>
+                    <p>Fakta: Tidak semua karbohidrat buruk. Karbohidrat kompleks seperti biji-bijian, buah-buahan, dan sayuran 
+                        menyediakan serat, vitamin, dan energi yang penting untuk tubuh. Membatasi karbohidrat terlalu ketat bisa
+                        membuat tubuh kekurangan energi.</p><br><br>
+                </li>
+                </ol>
+                <p> Membangun tubuh ideal membutuhkan strategi yang tepat, termasuk mengatur asupan nutrisi. 
+                    Bagi Anda yang ingin membangun otot dan meningkatkan massa tubuh, fase bulking menjadi kunci. 
+                    Namun, bagi yang ingin mengurangi berat badan, fase cutting menjadi pilihan yang tepat.</p>
+                <p>Berikut tabel perbandingan kebutuhan kalori dan makronutrien antara fase bulking dan cutting.</p><br>     
+            </article>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Fase Bulking</th>
+                    <th>Fase Cutting</th>
+                  </tr>
+                  <tr>
+                    <td>Kalori</td>
+                    <td>3,450</td>
+                    <td>2,550</td>
+                  </tr>
+                  <tr>
+                    <td>Protein (gram)</td>
+                    <td>259-302</td>
+                    <td>191-223</td>
+                  </tr>
+                  <tr>
+                    <td>Karbohidrat (gram)</td>
+                    <td>474-518</td>
+                    <td>351-383</td>
+                  </tr>
+                  <tr>
+                    <td>Lemak (gram)</td>
+                    <td>58-77</td>
+                    <td>43-57</td>
+                  </tr>
+            </table>
+            <h2>Berikan Pendapat atau Pertanyaan Anda</h2>
+            <form id="commentForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" required>
+                <label for="feedback">Komentar:</label>
+                <textarea id="feedback" name="coment" rows="4" required></textarea>
+                <button type="submit">Kirim</button></form>
+                <div id="notification"></div>
+        <script src="main.js"></script><br>
+
+        <footer>
+            <p>&copy; 2024 Fakta dan Mitos Pola Makan. All Rights Reserved.</p>
+        </footer>
+    </body>
+    </head>
+</html>

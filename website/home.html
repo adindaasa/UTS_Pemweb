@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Fakta dan Mitos Pola Makan/home</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            header {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 4em;
+            }
+            nav {
+                background-color: #00ff00;
+                overflow: hidden;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+            float: left;
+            }
+            nav ul li a {
+                color: black;
+                display: block;
+                padding: 20px;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            section {
+                padding: 20px;
+            }
+            .content-section {
+                display: none;
+            }
+            .content-section.active {
+                display: block;
+            }
+            #Home {
+                display: flex;
+                align-items: center;
+            }
+            #Home img {
+                width: 500px;
+                height: 450px;
+                margin-right: 20px;
+            }
+            #Home h2 {
+                font-size: 38px;
+            }
+            footer {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 1em;
+                width: 100%;
+            }
+            @media (max-width: 768px) {
+            header {
+                padding: 1em;
+            }
+            nav ul li a {
+                padding: 10px;
+            }
+            #Home {
+                flex-direction: column;
+            }
+            #Home h2 {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                width: 100%;
+                text-align: center;
+            }
+            #Home h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Mitos dan Fakta Pola Makan Sehat yang Perlu Anda Ketahui</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="content.html">Content</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <section id="Home">
+            <img src="utspemweb1.jpg" alt="Kesehatan">
+            <h2>Mari Kita Simak Beberapa Fakta dan Mitos Mengenai Pola Makan!</h2>
+        </section>
+        <footer>
+            <p>&copy; 2024 Fakta dan Mitos Pola Makan. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
